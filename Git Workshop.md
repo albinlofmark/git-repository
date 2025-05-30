@@ -1,6 +1,6 @@
 # Git Workshop
 
-Task 1: Initialize a New Repository, Create Files, and Make Commits
+**Task 1: Initialize a New Repository, Create Files, and Make Commits**
 1. Create a new project folder and initialize a Git repository.
  - Change directory to desired folder. For example: cd C:\Users\cowbo\OneDrive\Dokument
  - Make a directory to store files: mkdir "Programing"
@@ -20,7 +20,7 @@ Task 1: Initialize a New Repository, Create Files, and Make Commits
 5. Restore one of the files to a specfic verision in the repository.
  - Use "git log" to see the different commit and then copy the first 5 or 6 characters of the first commit and restore it: git restore --source=c924ad Git Workshop.md
 
-Task 2: Connecting to a Remote Repository
+**Task 2: Connecting to a Remote Repository**
 1. Create a remote repository on a Git hosting service.
  - Go to GitHub on your browser and create a new repository, give it a name and a description.
 
@@ -31,7 +31,7 @@ Task 2: Connecting to a Remote Repository
  - Make sure you have commited everything you want to push to your remote repository then use the following command: git push origin master 
  - "Master" in the command above could also be "Main" if you are on a newer version of Git.
 
-Task 3: Working with Branches.
+**Task 3: Working with Branches**
 1. Create a new branch called feature-branch.
  - To create a new branch you use the following command: git branch feature-branch
 
@@ -46,5 +46,9 @@ Task 3: Working with Branches.
 4. Push the new branch to the remote repository.
  - To push the new branch to the remote repository you can must first make sure the changes are added to the staging area and commited then you can use the following command: git push origin feature-branch
 
+**Task 4: Cloning and Updating a Remote Repository**
+ 1. Clone the following repository: https://github.com/Lexicon-Smaland/Hello-World
+ - Click the link above and press "Code" then copy the HTTPS link.
+ - To clone the remote repository use the following command: git clone https://github.com/Lexicon-Smaland/Hello-World
 
-Now you have got a feel for the basics of Git as well as local and remote repositories!
+*Now you have got a feel for the basics of Git as well as local and remote repositories!*
