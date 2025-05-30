@@ -40,8 +40,11 @@ Task 3: Working with Branches.
 
 3. Make changes and commit them.
  - To make changes you simple edit the desired .md file and use the following command to add the changes to the staging area and commiting them: git commit -a -m "branch update"
- - You can also merge the branch with main/master by first switching back to the main/master branch then using the following command: git merge -m "info regarding branch merge with master"
+ - You can also merge the branch with main/master by first switching back to the main/master branch then using the following command: git merge -m "info regarding branch merge with master" feature-branch
+ - When you are done with the merge you can delete the feature-branch by using the following command: git branch -d feature-branch
 
 4. Push the new branch to the remote repository.
- - To 
+ - To push the new branch to the remote repository you can must first make sure the changes are added to the staging area and commited then you can use the following command: git push origin feature-branch
+
+
 Now you have got a feel for the basics of Git as well as local and remote repositories!
