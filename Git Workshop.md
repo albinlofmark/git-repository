@@ -44,7 +44,8 @@ Task 3: Working with Branches.
  - When you are done with the merge you can delete the feature-branch by using the following command: git branch -d feature-branch
 
 4. Push the new branch to the remote repository.
- - To push the new branch to the remote repository you can must first make sure the changes are added to the staging area and commited then you can use the following command: git push origin feature-branch
+ - To push the new branch to the remote repository you can must first make sure the changes are added to the staging area and commited then you can use the following command: git push origin feature-branch.
+ - This line you should only be able to see on the "feature-branch"
 
 
 Now you have got a feel for the basics of Git as well as local and remote repositories!
