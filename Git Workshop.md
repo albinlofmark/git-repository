@@ -40,6 +40,7 @@ Task 3: Working with Branches.
 
 3. Make changes and commit them.
  - To make changes you simple edit the desired .md file and use the following command to add the changes to the staging area and commiting them: git commit -a -m "branch update"
+ - You can also merge the branch with main/master by first switching back to the main/master branch then using the following command: git merge -m "info regarding branch merge with master"
 
 4. Push the new branch to the remote repository.
  - To 
