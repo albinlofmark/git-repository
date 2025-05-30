@@ -2,14 +2,12 @@
 
 Task 1: Initialize a New Repository, Create Files, and Make Commits
 1. Create a new project folder and initialize a Git repository.
-
  - Change directory to desired folder. For example: cd C:\Users\cowbo\OneDrive\Dokument
  - Make a directory to store files: mkdir "Programing"
  - Change to directoty where you want to store the files: cd Programing
  - Initialize a Git repository: git init
 
 2. Create a few files with different content.
-
  - Make a .md file to edit in VSCode: code "Git Workshop.md"
 
 3. Stage and commit the files with descriptive messages.
@@ -33,4 +31,16 @@ Task 2: Connecting to a Remote Repository
  - Make sure you have commited everything you want to push to your remote repository then use the following command: git push origin master 
  - "Master" in the command above could also be "Main" if you are on a newer version of Git.
 
+Task 3: Working with Branches.
+1. Create a new branch called feature-branch.
+ - To create a new branch you use the following command: git branch feature-branch
+
+2. Switch to the new branch.
+ - To switch to the new branch you write: git switch feature-branch
+
+3. Make changes and commit them.
+ - To make changes you simple edit the desired .md file and use the following command to add the changes to the staging area and commiting them: git commit -a -m "branch update"
+
+4. Push the new branch to the remote repository.
+ - To 
 Now you have got a feel for the basics of Git as well as local and remote repositories!
