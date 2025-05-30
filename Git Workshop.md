@@ -32,3 +32,5 @@ Task 2: Connecting to a Remote Repository
 3. Push all local changes to the remote repository.
  - Make sure you have commited everything you want to push to your remote repository then use the following command: git push origin master 
  - "Master" in the command above could also be "Main" if you are on a newer version of Git.
+
+Now you have got a feel for the basics of Git as well as local and remote repositories!
