@@ -51,7 +51,6 @@
  - Click the link above and press "Code" then copy the HTTPS link.
  - To clone the remote repository use the following command: git clone https://github.com/Lexicon-Smaland/Hello-World
 
-<<<<<<< HEAD
 2. Remove the Existing Remote Link and Link to a New Repository.
  - To remove the existing remote link use: git remote remove origin
  - To link to a new repository use: git remote add origin git@github.com:albinlofmark/git-repository.git
@@ -63,6 +62,3 @@
  - To push to the newly linked repository use: git push origin main
 
 *Now you have got a feel for the basics of Git as well as local and remote repositories!*
-=======
-*Now you have got a feel for the basics of Git as well as local and remote repositories!*
->>>>>>> 1e422c14d3e21c8282ab4ba9e421616e9a5b4ba1
