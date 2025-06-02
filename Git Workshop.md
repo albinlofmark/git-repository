@@ -4,7 +4,7 @@
 1. Create a new project folder and initialize a Git repository.
  - Change directory to desired folder. For example: cd C:\Users\cowbo\OneDrive\Dokument
  - Make a directory to store files: mkdir "Programing"
- - Change to directoty where you want to store the files: cd Programing
+ - Change to directory where you want to store the files: cd Programing
  - Initialize a Git repository: git init
 
 2. Create a few files with different content.
@@ -47,8 +47,18 @@
  - To push the new branch to the remote repository you can must first make sure the changes are added to the staging area and commited then you can use the following command: git push origin feature-branch
 
 **Task 4: Cloning and Updating a Remote Repository**
- 1. Clone the following repository: https://github.com/Lexicon-Smaland/Hello-World
+1. Clone the following repository: https://github.com/Lexicon-Smaland/Hello-World
  - Click the link above and press "Code" then copy the HTTPS link.
  - To clone the remote repository use the following command: git clone https://github.com/Lexicon-Smaland/Hello-World
+
+2. Remove the Existing Remote Link and Link to a New Repository.
+ - To remove the existing remote link use: git remote remove origin
+ - To link to a new repository use: git remote add origin git@github.com:albinlofmark/git-repository.git
+
+3. Add or modify files in the cloned project and commit the changes.
+ - Modify the README.md file in "Hello-World" and then commit the changes by using the following command: git commit -a -m "changed readme file"
+
+4. Push all the committed changes to the newly linked repository.
+ - To push to the newly linked repository use: git push origin main
 
 *Now you have got a feel for the basics of Git as well as local and remote repositories!*
